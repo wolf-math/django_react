@@ -15,7 +15,7 @@ class UserSerializer(serializers.ModelSerializer):
         return user
     
 # The model to be served as JSON
-class NoteSerializer(serializers.ModeSerializer):
+class NoteSerializer(serializers.ModelSerializer):
     class Meta:
         model = Note
         fields = ["id", "title", "content", "created_at", "author"]

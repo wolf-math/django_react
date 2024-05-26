@@ -88,4 +88,4 @@ docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic
 ```
 
-**NOTE** The homepage is protected by default. This is just so that there's something there. 
+**NOTE** The homepage is protected by default. This is just so that there's something there. So you will get a 404 when the dev server starts the first time.
